@@ -4,6 +4,6 @@ jobs:
   print:
     runs-on: ubuntu-latest
     env:
-      EXKEY: ${{ vars.example_key }}
+      EXKEY: ${{ vars.EXAMPLE_KEY }}
     steps:
       - run: echo "$EXKEY"
